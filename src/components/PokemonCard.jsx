@@ -4,7 +4,7 @@ function PokemonCard({pokemon}) {
     <>
       <figure>
         <img src = {pokemon.imgSrc} alt = {pokemon.name + " card"} />
-        <figcaption>{pokemon.name}</figcaption>
+        <figcaption> {pokemon.name} </figcaption>
         </figure>     
     </>
     )
